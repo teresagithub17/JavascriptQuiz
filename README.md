@@ -25,7 +25,7 @@ This code generates a timed Javascript fundamentals quiz.
 If you encounter issues with the code, please report it to the https://github.com/teresagithub17/passwordGenerator/issues.
 
 #### Resources and links:
-1. Github published page: https://teresagithub17.github.io/passwordGenerator/
-2. Github repository: https://github.com/teresagithub17/passwordGenerator
+1. Github published page: https://teresagithub17.github.io/JavascriptQuiz/
+2. Github repository: https://github.com/teresagithub17/JavascriptQuiz
 
 Thank you and Enjoy!
