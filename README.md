@@ -6,10 +6,10 @@ This code generates a timed Javascript fundamentals quiz.
 * Upon initial page landing, the user is presented with the rules of the game. 
 
 #### Rules of the game:
-*This is a timed quiz. The timer starts once you click Start Quiz.
-*There are 4 questions in this quiz. Your points equals the number of seconds remaining when you finish the quiz.
-*When you answer incorrectly, 5 seconds is subtracted from the remaining time.
-*When all questions are answered or the timer reaches 0, the game is over. 
+* This is a timed quiz. The timer starts once you click Start Quiz.
+* There are 4 questions in this quiz. Your points equals the number of seconds remaining when you finish the quiz.
+* When you answer incorrectly, 5 seconds is subtracted from the remaining time.
+* When all questions are answered or the timer reaches 0, the game is over. 
 
 #### How to use:
 1. Open the HTML file.
