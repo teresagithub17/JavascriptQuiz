@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--PAGE TITLE-->
+    <title>Javascript Quiz</title>
+
+    <!--HTML <meta> Tag-->
+    <meta charset="UTF-8">
+    <meta name="description" content="Javascript Quiz">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Teresa Pilapil">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Link to CSS -->
+    <link rel="stylesheet" href="./Assets/style.css">
+    
+  </head>
+
+  <body>
+     <!--1. Create a landing page with:  1a. View highscore. 1b. Time = 60s. 1c. rules of the quiz. 1d. Start Quiz button. -->
+    <header>
+      <section class = container>
+        <div>
+          <button id="view-scores" class = hsbutton>View High Scores</button>
+        </div>
+        <div>
+          <p class = time>Time:60s</p>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section>
+        <div id="begin">
+          <div>
+            <h1 class = title >Javascript Fundmentals Quiz</h1>
+            <h2 class =>Rules of the Quiz</h2>
+            <ul>
+              <li>This is a timed quiz. The timer starts once you click Start Quiz.</li>
+              <li>There are 4 questions in this quiz. Your points equals the number of seconds remaining when you finish the quiz.</li>
+              <li>When you answer incorrectly, 5 seconds is subtracted from the remaining time.</li>
+              <li>When all questions are answered or the timer reaches 0, the game is over.</li>
+            </ul>
+            <button id="startButton">Start Quiz</button>
+          </div>
+        </div>
+      </section>
+      <!--2. When Start Quiz button is pressed: 2a. present the questions-->
+      <section id="questionSection">
+        <div>
+          <h2 id="question">I'm a question</h2>
+          <ul style="list-style: none;">
+            <li>
+              <button id="choice1" value="0" type="button"
+              class="ansBtn">Choice1</button></li>
+            <li class=>
+              <button id="choice2" value="1" type="button"
+              class="ansBtn">Choice2</button></li>
+            <li class=>
+              <button id="choice3" value="2" type="button"
+              class="ansBtn">Choice3</button></li>
+            <li class=>
+              <button id="choice4" value="3" type="button"
+              class="ansBtn">Choice4</button></li>
+          </ul>
+         <!-- Correct or Wrong will be added via JS -->
+         <div id="rightOrWrong">
+          <hr>
+         </div>
+      </section>
+      <!--3. Create a page to save initials and score. -->  
+      <section id="finish">
+        <div>
+          <h2>All done!</h2>
+          <p>Your final score is: <span id="score">0</span></p>
+          <p>Enter initials: <span><input placeholder="initials" id="initials" /></span>
+              <button id="submit-score">Submit</button>
+          </p>
+        </div>
+    </section>
+    <!--4. Create a section: 4a. To save initials and score. 4b. Go back Button. 4c. Clear Scores Button --> 
+    <section id="highscores">
+      <div>
+          <h2>High Scores</h2>
+          <ol id="score-list">
+          </ol>
+          <button id="goback">Go back</button>
+          <button id="clearscores">Clear scores</button>
+      </div>
+    </section>
+   </main>
+
+    <script src="./Assets/script.js"></script>
+  </body>
+</html>
